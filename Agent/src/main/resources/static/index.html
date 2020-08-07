@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Booking API</title>
+</head>
+<body>
+    <h1>Flight Serching API</h1>
+    <form action="http://localhost:8090/controller/check/"
+            method="get" >
+    <table>
+    
+    <tr>
+    <td>
+    <label >Source:</label>
+
+<select name="source" id="source">
+  <option value="Coimbatore">Coimbatore</option>
+  <option value="Chennai">Chennai</option>
+  <option value="Madurai">Madurai</option>
+</select>
+    
+    </td>
+     <td>
+    <label >Destination:</label>
+
+<select name="destination" id="destination">
+  <option value="Bangalore">Bangalore</option>
+  <option value="Chennai">Chennai</option>
+  <option value="Dubai">Dubai</option>
+  <option value="Delhi">Delhi</option>
+  <option value="Quatar">Quatar</option>
+  <option value="Malayasia">Malayasia</option>
+</select>
+    
+    </td>
+    
+    
+    
+    <td>
+    <label >Travel Date:</label><input type="text" name="travelDate" >
+    </td>
+    <td>
+    <label >Return Date:</label><input type="text" name="returnDate" >
+    </td>
+    </tr>
+    </table>
+    <button type="submit" >Submit</button>
+    </form>
+</body>
+</html>
